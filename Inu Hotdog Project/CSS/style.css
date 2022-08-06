@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1a1a1a;
+}
+
+.navbar{
+    background-color: #222c;
+}
+
+
+.follows{
+    height: 50px;
+    width: 100%;
+    background-color: #f33;
+}
+
+.faq{
+    padding: 0 3rem;
+    margin: 2rem;
+    border: 1px solid #f33;
+}
+
+.faq::before{
+    display: flex;
+    font-size: 1.5rem;
+    content: "FAQ";
+    padding: 0 3rem;
+    color: #f33;
+    position: relative;
+    top: -1rem;
+    background-color: #1a1a1a;
+    width: max-content;
+    margin: auto;
+}
+
+.team{
+    padding: 5rem 1rem;
+    margin: 2rem;
+    border: 1px solid #f33;
+}
+.team-card-2::before {
+    display: flex;
+    font-size: 1.5rem;
+    content: "TEAM";
+    padding: 0 3rem;
+    color: #f33;
+    position: absolute;
+    top:-6rem;
+    background-color: #1a1a1a;
+    width: max-content;
+    margin: auto;
+}
+
+
+.team .card .card-img-top{
+    width: 10rem;
+    clip-path: inset(0 0 0 0 round 50% 50% 50% 50%);
+}
+
+.team-card{
+    width: 30%;
+    color: #ccc;
+    background-color: #fff2;
+    align-items: center;
+}
+
+.question{
+    border: none;
+    margin: 5px 0;
+
+}
+
+.btn-dark{
+    background-color: #222;
+}
+
+.card{
+    background-color: #1a1a1a;
+    color:  #ccc;
+    border: none;
+}
+
+.btn-dark:hover{
+    background-color: #c33;
+}
+
+.btn-dark:focus{
+    background-color: #c33;
+}
+
+.redes-icon{
+    width: 50px;
+    color: #ccc;
+}
+
+
+/* .cinta-1{
+    position: absolute;
+    width: 100%;
+}
+.cinta-2{
+    position: absolute;
+    width: 100%;
+}
+
+
+.cinta-1{
+    position: absolute;
+    width: 120%;
+    z-index: 20;
+    bottom:-20rem;
+    left: 0;
+}
+.cinta-2{
+    position: absolute;
+    width: 120%;
+    z-index: 10;
+    bottom: -50rem;
+    left: 0;
+} */
+
